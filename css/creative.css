@@ -1,4 +1,191 @@
 
+header{
+	background:rgba(255,255,255,0.18);
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+	height: 71px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    }
+.navbar-default .navbar-brand {
+    color: #f5f5f5;
+
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    border:none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,.0001);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: rgba(206, 57, 54, 0.99);
+}
+ .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color:white;
+    background-color: #F05F40;
+    }  
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    }
+
+.sunset{
+	background-image: url("../img/header.jpg");
+	height: 680px;
+	background-repeat: none;
+	background-position:100% 35%; 
+	background-size:cover;
+}
+
+
+.comienzo{
+	font-size: 14px;
+
+}
+.icono{
+	color:white;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+.porta{
+	position: relative;
+	top: 11px;
+	margin-left: 20px;
+}
+.box{
+	margin-top: 100px;
+}
+
+.desarrollar{
+	text-align: center;
+	margin-top: 30px;
+}
+.titulo{
+	color: #fff;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	color: #f2f2f2;
+	text-shadow: 0px -1px 0px #424242;
+
+}
+.frontend{
+	color: white;
+
+}
+.raya{
+	background-color:#F05F40;
+	width:43px;
+	padding: 2px;
+	margin:auto;
+}
+.conoce{
+	background-color:#F05F40;
+	border-radius: 20px;
+	width: 100px;
+	padding: 9px;
+	border:none;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	margin-top: 25px;
+
+}
+.conoce:hover{
+	color:#F05F40;
+	background-color:white;
+
+}
+button{
+	 transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+button:hover{
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.pink{
+	background-color: #F05F40;
+	height: 300px;
+}
+.sobre{
+	color: white;
+	margin-top: 100px;
+}
+.line{
+	background-color:white;
+	width:43px;
+	padding: 2px;
+	margin:auto;
+}
+.egresada{
+	color: white;
+	margin-top: 25px;
+}
+.background{
+	height: 350px;
+}
+.move{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.awesome{
+	color: #F05F40;
+	font-size:50px;
+	text-shadow: .1em .1em #ccc;
+}
+.white{
+	height: 300px;
+}
+.dicon{
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+}
+
+.listo{
+	margin-top: 26px;
+}
+.fa-envelope{
+	font-size: 23px;
+
+}
+.fa-phone{
+	font-size: 23px;
+
+}
+.center{
+	padding-left: 50%;
+}
+.entero{
+	padding-right: 50%;
+}
+a{
+	color: #FC5308;
+}
+
 .images{
 	width:100%;
     opacity: 0.8;
@@ -21,12 +208,12 @@
 .caja {
 	margin: 0;
 	padding: 0;
+
 }
+
 .black{
 	background-color:black;
 	height:150px;
-	margin:0s;
-	padding:0;
 }
 .hub{
 	text-align: center;
@@ -45,24 +232,56 @@
 	border-radius:30px;
 	font-family:"Open Sans";
 	font-weight: bold;
-	 transform: scale(1);
-  -ms-transform: scale(1);
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
 }
 .git:hover{
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
+	color:white;
+	background-color:#F05F40;
+
+}
+
+.contactame-main-text {
+    width: 55%;
+}
+.contacto-icons {
+    font-size: 3rem;
+}
+
+.icons {
+display: inline-block;
+float: none;
+text-align: center;
+
+}
+.correo {
+    color: #F05F40;
+}
+.cat{
+	font-size: 30px;
+}
+@media only screen and (max-width: 480px) {
+   
 }
 
 
- 
+@media only screen and (max-width: 780px) {
+    
+    .caja {
+         width: 100% !important;
+         height: 100% !important;
+    }
+    #servicios{
+    	height: 760px;
+    }
 
+
+   }
+
+
+@media only screen and (max-width: 990px) {
+    .caja {
+         width: 742px;
+         height: 203px;
+     }
+
+
+}
