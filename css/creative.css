@@ -6,7 +6,10 @@ header{
 	z-index: 1;
 	height: 71px;
 }
-
+.letra{
+	text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+	z-index: 1;
+}
 .navbar-default {
     background-color: transparent;
     }
@@ -145,11 +148,10 @@ button:hover{
 	margin-top: 25px;
 }
 .background{
-	height: 350px;
+	height: 400px;
 }
 .move{
-	margin-top: 60px;
-	margin-bottom: 40px;
+	margin-top: 10%;
 }
 .awesome{
 	color: #F05F40;
@@ -157,38 +159,16 @@ button:hover{
 	text-shadow: .1em .1em #ccc;
 }
 .white{
-	height: 300px;
+	height: 330px;
 }
 .dicon{
 	text-align: center;
 	padding-top: 20px;
 	position: relative;
 }
-
-.listo{
-	margin-top: 26px;
-}
-.fa-envelope{
-	font-size: 23px;
-
-}
-.fa-phone{
-	font-size: 23px;
-
-}
-.center{
-	padding-left: 50%;
-}
-.entero{
-	padding-right: 50%;
-}
-a{
-	color: #FC5308;
-}
-
 .images{
 	width:100%;
-    opacity: 0.8;
+    opacity: 0.9;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -204,13 +184,10 @@ a{
 
 }
 
-
 .caja {
 	margin: 0;
 	padding: 0;
-
 }
-
 .black{
 	background-color:black;
 	height:150px;
@@ -236,30 +213,58 @@ a{
 .git:hover{
 	color:white;
 	background-color:#F05F40;
-
-}
-
-.contactame-main-text {
-    width: 55%;
-}
-.contacto-icons {
-    font-size: 3rem;
-}
-
-.icons {
-display: inline-block;
-float: none;
-text-align: center;
-
-}
-.correo {
-    color: #F05F40;
 }
 .cat{
 	font-size: 30px;
 }
+.contact{
+	padding-top: 5%;
+	margin-bottom: 10px;
+}
+
+a{
+	color:#F05F40;
+}
+.letter{
+
+	margin:auto;
+	padding:2% 10% 2% 10%;
+}
+
+.iconfin{
+	font-size:45px;
+	text-shadow: .1em .1em #ccc;
+}
+.sube{
+	text-align:center;
+	padding:0 26% 5% 26%;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 480px) {
-   
+   	
+
+   	.titulo{
+   		font-size: 35px;
+   	}
+   	.frontend{
+   		font-size: 16px;
+   	}
+   	.center{
+   		position:relative;
+   		top: 50px;
+   	}
+   	 .entero{
+   	 	position: absolute;
+   	 	top: 20px;
+
+   	}
+
 }
 
 
@@ -269,19 +274,36 @@ text-align: center;
          width: 100% !important;
          height: 100% !important;
     }
-    #servicios{
+    .navbar-default{
+		background:#F05F40;	
+	}
+    
+  }
+
+@media only screen and (max-width: 990px) {
+     .caja {
+         width: 100% !important;
+         height: 100% !important;
+    }
+	#servicios{
     	height: 760px;
     }
 
+   	.conoce{
+   		width:110px;
+   		padding: 12px;
+   	}
+   	.sunset{
+   		background-position:37% 0; 
+   	}
 
+	 .pink{
+   		height: 350px;
    }
-
-
-@media only screen and (max-width: 990px) {
-    .caja {
-         width: 742px;
-         height: 203px;
-     }
+   .black{
+   	padding:5%;
+   	height: 180px;
+   }
 
 
 }
